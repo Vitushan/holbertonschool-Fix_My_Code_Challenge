@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include "lists.h"
+#include <string.h>
+
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
